@@ -1,6 +1,13 @@
+body {
+  font-family: 'Playfair Display', serif;
+
+
+}
+
 .App {
   text-align: center;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +42,207 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+header {
+  font-family: "Libre Franklin", sans-serif;
+  letter-spacing: 1px;
+  position: fixed;
+  top: 0;
+  left: 02;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  background-color: #021a2b;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+.navbar {
+  display: inline;
+  list-style-type: none;
+  margin: 20px;
+  padding: 20px;
+  color: #fff;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+ cursor: pointer;
+  
+}
+
+li:hover {
+  color:#59b0ef ;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://marvel-b1-cdn.bc0a.com/f00000000164722/www.udel.edu/content/dam/udelImages/rlh/CampusScenery/South-Academy-header-blue.jpg/_jcr_content/renditions/original");
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 90px;
+  margin-top: 70px;
+  
+}
+
+
+ .main-heading {
+  margin-top: 0;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.re-connect {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.content {
+  position: absolute;
+  top: 55%;
+  left: 8%;
+  transform: translateY(-50%);
+  z-index: 2;
+  text-align: left;
+  color: white;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.alumni-search {
+  background: transparent;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  border: solid 1px white;
+  height: 39px;
+  width: 200px;
+  /*box-shadow: 5px 5px 5px -1px;*/
+}
+
+
+.events {
+  position: absolute;
+  top: 700px;
+  left: 40%;
+  align-items: center;
+  
+  margin-bottom: 0;
+
+}
+
+.upcoming {
+  font-size: 40px;
+}
+
+hr {
+  width: 30%;
+  margin-left: 0;
+  margin-top: 20px;
+}
+
+.event-list {
+  margin-top: 70px;
+}
+
+.search {
+  margin: 300px auto;
+}
+
+
+
+.register-page {
+  
+  /*background-image: url("https://intranet.birmingham.ac.uk/staff/images/brand/download/Green-Heart-at-night.jpg");*/
+  padding: 2em;
+  background-repeat: no-repeat;
+ 
+  background-color: #cfe3f2;
+  
+  
+}
+
+.container {
+   
+  max-width: 500px;
+  width: 100%;
+  background-color:  #021a2b;
+  margin: 45px auto;
+  padding: 50px;
+  padding-top: 4%;
+  padding-bottom: 7%;
+  box-shadow: 0 0.188rem 1.55rem #383e43;
+  border-radius: 0.8rem;
+  
+  /*display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;*/
+
+}
+
+.container .title {
+  
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #F1F6F9;
+  font-family: 'Playfair Display', serif;
+
+}
+
+
+input {
+  display:block;
+  align-self: center;
+  margin: auto ;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 300px;
+  border-radius: 3px;
+  height: 18px;
+  padding: 2px;
+  border: none;
+   
+}
+
+.title {
+  padding-bottom: 15px;
+}
+
+textarea {
+  width: 300px;
+  color: rgb(202, 206, 210);
+  resize: none;
+}
+
+.user-details {
+  align-items: center;
+  transition: all 0.3s ease ;
+  
+}
+
+.sign-up {
+  font-family: 'Playfair Display', serif;
+  background: transparent;
+   margin-top: 10px;
+    color: rgb(251, 249, 249);
+    border: 2px solid rgb(255, 255, 255);
+    width: 150px;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight:500px;
+    vertical-align: middle;
+}
+
+.sign-up:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 3, 5);
 }
